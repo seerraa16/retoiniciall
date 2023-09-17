@@ -11,7 +11,7 @@ def zona_segura(tablero, fila, columna, n):
             for i in range(fila)
     )
 
-def contar_soluciones_damas(n):
+def numero_soluciones(n):
     def backtrack(fila):
         nonlocal soluciones
         if fila == n:
@@ -31,5 +31,5 @@ def contar_soluciones_damas(n):
 # Número de damas
 N = 15
 
-soluciones = contar_soluciones_damas(N)
+soluciones = numero_soluciones(N)
 print(f'Para n={N}, hay {soluciones} soluciones.')
