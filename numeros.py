@@ -1,3 +1,4 @@
+#definimos cuantos movimientos puede hacer el caballo
 def movimientos_caballo(x, y):
     movimientos = [(-2, -1), (-1, -2), (-2, 1), (-1, 2),
                    (1, -2), (2, -1), (1, 2), (2, 1)]
